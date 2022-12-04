@@ -11,3 +11,9 @@ django-admin startproject alurareceita .
 ```
 python manage.py runserver
 ```
+
+### Comando para criar um app
+
+```
+python manage.py startapp receitas
+```
