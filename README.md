@@ -17,3 +17,9 @@ python manage.py runserver
 ```
 python manage.py startapp receitas
 ```
+
+### Comando para copiar arquivos estáticos
+
+```
+python manage.py collectstatic --no-input
+```
