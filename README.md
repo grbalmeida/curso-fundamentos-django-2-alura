@@ -35,3 +35,9 @@ python manage.py makemigrations
 ```
 python manage.py migrate
 ```
+
+### Comando para criar um Superusuário
+
+```
+python manage.py createsuperuser
+```
