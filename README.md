@@ -23,3 +23,15 @@ python manage.py startapp receitas
 ```
 python manage.py collectstatic --no-input
 ```
+
+### Comando para gerar as migrações
+
+```
+python manage.py makemigrations
+```
+
+### Comando para atualizar o banco de dados
+
+```
+python manage.py migrate
+```
