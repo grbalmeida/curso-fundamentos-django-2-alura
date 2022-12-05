@@ -34,14 +34,14 @@
         <div class="container">
             <div class="row">
 
-                {% for chave, valor in nome_das_receitas.items %}
+                {% for receita in receitas %}
                     <!-- Single Best Receipe Area -->
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-best-receipe-area mb-30">
                             <img src="{% static 'img/bg-img/foto_receita.png' %}" alt="">
                             <div class="receipe-content">
                                 <a href="{% url 'receita' %}">
-                                    <h5>{{ valor }}</h5>
+                                    <h5>{{ receita.nome_receita }}</h5>
                                 </a>
                             </div>
                         </div>
